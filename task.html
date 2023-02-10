@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Babylonica&family=Courgette&family=Itim&family=Josefin+Sans:ital,wght@1,300&family=Mukta:wght@600&family=Pacifico&family=Roboto+Condensed:wght@300;400&family=Satisfy&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Light ON/OFF</h1>
+
+
+    <button class="button" onclick="bulbOn()">On</button>
+
+    <img src="./Off Street Lamp.jpg" id="bulbimg" height="550px" width="500px" alt="">
+
+
+    <button class="button" onclick="bulbOff()">Off</button>
+
+
+    <script>
+
+        function bulbOn() {
+
+            document.getElementById('bulbimg').src = "On Street Lamp.jpg"
+
+
+        }
+
+        function bulbOff() {
+
+            document.getElementById('bulbimg').src = "Off Street Lamp.jpg"
+
+
+        }
+
+    </script>
+
+</body>
+
+</html>
